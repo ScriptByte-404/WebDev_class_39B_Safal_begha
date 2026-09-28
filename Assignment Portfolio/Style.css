@@ -1,0 +1,145 @@
+
+/* Body */
+body {
+    background-color: #F7F5EF;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #173B35;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Navigation Links */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #D6B879;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Introduction */
+#introduction h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+#introduction p {
+    text-align: justify;
+}
+
+/* Boss Image */
+.boss-image {
+    text-align: center;
+}
+
+.boss-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.boss-image figcaption {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Experience */
+#experience li:nth-child(odd) {
+    font-weight: lighter;
+}
+
+#experience li:nth-child(even) {
+    font-weight: bold;
+}
+
+/* Skills Table */
+#skills table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#skills th {
+    background-color: #173B35;
+    color: white;
+    padding: 10px;
+}
+
+#skills td {
+    border: 1px solid #DCE5DF;
+    padding: 10px;
+}
+
+#skills tr:nth-child(even) {
+    background-color: #EAF2ED;
+}
+
+/* Projects */
+#projects li {
+    background-color: #EAF2ED;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* YouTube Video */
+.video-container {
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 560px;
+    height: 315px;
+}
+
+/* Contact Form */
+#contact form {
+    width: 60%;
+    margin: auto;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact input,
+#contact select {
+    width: 100%;
+    padding: 10px;
+}
+
+#contact button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #173B35;
+    color: white;
+}
+
+#contact button:hover {
+    background-color: #D6B879;
+    color: #173B35;
+}
